@@ -1,0 +1,30 @@
+2025-04-03 21:56:37 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4538e796: (connection has passed maxLifetime)
+2025-04-03 21:56:37 [DEBUG][org.springframework.boot.availability.ApplicationAvailabilityBean][onApplicationEvent][77]-> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2025-04-03 21:56:37 [DEBUG][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][doClose][1049]-> Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26bab2f1, started on Thu Apr 03 21:26:36 CST 2025
+2025-04-03 21:56:37 [DEBUG][org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertyResolver$DefaultResolver][logKeyFound][115]-> Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2025-04-03 21:56:37 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][stop][365]-> Stopping beans in phase 2147483647
+2025-04-03 21:56:37 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][lambda$doStop$3][238]-> Bean 'webServerGracefulShutdown' completed its stop procedure
+2025-04-03 21:56:37 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][stop][365]-> Stopping beans in phase 2147483646
+2025-04-03 21:56:37 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][lambda$doStop$3][238]-> Bean 'webServerStartStop' completed its stop procedure
+2025-04-03 21:56:37 [DEBUG][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-03 21:56:37 [DEBUG][org.springframework.data.redis.listener.RedisMessageListenerContainer][stop][242]-> Stopped RedisMessageListenerContainer
+2025-04-03 21:56:37 [DEBUG][org.springframework.jmx.export.annotation.AnnotationMBeanExporter][destroy][452]-> Unregistering JMX-exposed beans on shutdown
+2025-04-03 21:56:37 [DEBUG][org.springframework.jmx.export.annotation.AnnotationMBeanExporter][unregisterBeans][186]-> Unregistering JMX-exposed beans
+2025-04-03 21:56:37 [DEBUG][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][shutdown][218]-> Shutting down ExecutorService 'applicationTaskExecutor'
+2025-04-03 21:56:37 [DEBUG][io.lettuce.core.AbstractRedisClient][shutdownAsync][539]-> Initiate shutdown (100, 100, MILLISECONDS)
+2025-04-03 21:56:37 [DEBUG][io.lettuce.core.resource.DefaultEventLoopGroupProvider][doRelease][281]-> Release executor io.netty.channel.nio.NioEventLoopGroup@10dbf660
+2025-04-03 21:56:37 [DEBUG][io.lettuce.core.protocol.ConnectionWatchdog][channelInactive][196]-> [channel=0xcdf9547c, /192.168.207.202:50227 -> /8.155.11.165:6379, last known addr=/8.155.11.165:6379] channelInactive()
+2025-04-03 21:56:37 [DEBUG][io.lettuce.core.protocol.ConnectionWatchdog][channelInactive][207]-> [channel=0xcdf9547c, /192.168.207.202:50227 -> /8.155.11.165:6379, last known addr=/8.155.11.165:6379] Reconnect scheduling disabled
+2025-04-03 21:56:37 [DEBUG][io.netty.buffer.PoolThreadCache][free][224]-> Freed 9 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2025-04-03 21:56:37 [DEBUG][io.lettuce.core.resource.DefaultClientResources][shutdown][710]-> Initiate shutdown (0, 2, SECONDS)
+2025-04-03 21:56:37 [DEBUG][io.lettuce.core.resource.DefaultEventLoopGroupProvider][shutdown][317]-> Initiate shutdown (0, 2, SECONDS)
+2025-04-03 21:56:37 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2025-04-03 21:56:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before shutdown stats (total=5, active=1, idle=4, waiting=0)
+2025-04-03 21:56:37 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4bff0141: (connection evicted)
+2025-04-03 21:56:37 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4fc08ce6: (connection evicted)
+2025-04-03 21:56:37 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@ac20b7a: (connection evicted)
+2025-04-03 21:56:37 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@8c459e3: (connection evicted)
+2025-04-03 21:56:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][call][729]-> HikariCPDatasource - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a52927e
+2025-04-03 21:56:37 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a52927e: (connection evicted)
+2025-04-03 21:56:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-04-03 21:56:37 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.
