@@ -54,17 +54,29 @@ echopan/
 
 ## 项目预览
 
+**[Echo云盘体验地址](https://www.echopan.cn)**
+
+
+
 **登录页**
 
-![1](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-04_11-29-14.png)
+![1](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-08_13-55-52.png)
 
 **首页**
 
-![2](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-04_11-31-36.png)
+![2](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-08_13-56-08.png)
+
+**文件分享**
+
+![3](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-08_13-56-33.png)
 
 **图片预览**
 
-![3](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-04_11-31-40.png)
+![4](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-08_13-58-17.png)
+
+**回收站**
+
+![5](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-08_13-56-45.png)
 
 
 ## 项目部署

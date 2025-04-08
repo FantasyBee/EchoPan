@@ -120,6 +120,7 @@
               placeholder="请输入验证码"
               v-model.trim="formData.checkCode"
               @click="doSubmit"
+              @keydown.enter="doSubmit"
             >
               <template #prefix>
                 <span class="iconfont icon-checkcode"></span>
@@ -443,7 +444,7 @@ const doSubmit = () => {
     flex: 1;
     background-size: cover;
     background-position: center;
-    background-size: 800px;
+    background-size: 600px;
     background-repeat: no-repeat;
     background-image: url("../assets/login_img.png");
   }
