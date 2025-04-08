@@ -22,7 +22,7 @@ echopan/
 
 **🚀 技术栈**
 
-前端：Vue3 + Vite3 + vuex + axios + pinia + router + js + Element Plus
+前端：Vue3 + Vite3 + Vuex + Axios + Pinia + Js + Element Plus + Vue-clipboard3 + iconfont.cn
 
 后端：Spring Boot + Mybatis + MySQL + Redis + ffmpeg
 
