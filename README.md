@@ -67,23 +67,31 @@ echopan/
 
 **登录页**
 
-![1](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-08_13-55-52.png)
+![1](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Echopan-Login.png)
 
 **首页**
 
-![2](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-08_13-56-08.png)
+![5](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Echopan-Main.png)
 
 **文件分享**
 
-![3](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-08_13-56-33.png)
+![10](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Echopan-Share.png)
+
+**视频/图片上传**
+
+![15](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Echopan-Upload.png)
 
 **图片预览**
 
-![4](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-08_13-58-17.png)
+![20](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Echopan-Img.png)
+
+**视频预览**
+
+![25](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Echopan-Video.png)
 
 **回收站**
 
-![5](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Snipaste_2025-04-08_13-56-45.png)
+![30](https://yl-framework.oss-cn-heyuan.aliyuncs.com/Echopan-Reload.png)
 
 
 ## 项目部署

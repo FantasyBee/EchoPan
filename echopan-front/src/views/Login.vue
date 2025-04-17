@@ -1,6 +1,5 @@
 <template>
   <div class="login-body">
-    <div class="bg"></div>
     <div class="login-panel">
       <el-form
         class="login-register"
@@ -8,7 +7,9 @@
         :rules="rules"
         ref="formDataRef"
       >
-        <div class="login-title">Echo个人文件存储系统</div>
+        <div class="login-title">
+          <a href="https://github.com/FantasyBee/EchoPan" target="_blank">Echo个人文件存储系统</a>
+        </div>
         <!--input输入-->
         <el-form-item prop="email">
           <el-input
@@ -211,7 +212,7 @@
     </Dialog>
     <div class="icp-link">
       <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024327259号-2</a>
-      @2024-2025 www.echopan.cn 版权所有
+      <a href="https://github.com/FantasyBee/EchoPan" target="_blank">@2024-2025 www.echopan.cn 版权所有</a>
     </div>
   </div>
 </template>
@@ -440,27 +441,49 @@ const doSubmit = () => {
   background: url("../assets/login_bg.jpg") no-repeat center center;
   background-size: 100% 100%;
   display: flex;
-  .bg {
-    flex: 1;
-    background-size: cover;
-    background-position: center;
-    background-size: 600px;
-    background-repeat: no-repeat;
-    background-image: url("../assets/login_img.png");
-  }
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   .login-panel {
-    width: 430px;
-    margin-right: 15%;
-    margin-top: calc((100vh - 500px) / 2);
+    width: 480px;
     .login-register {
       padding: 25px;
       background: #fff;
       border-radius: 30px;
       .login-title {
         text-align: center;
-        font-size: 18px;
-        font-weight: bold;
         margin-bottom: 20px;
+      }
+      .login-title a{
+        font-size: 20px;
+        font-weight: bold;
+        color: #3fde99;
+        text-decoration: none;
+        outline: none;
+      }
+      .login-title a:hover{
+        font-size: 20px;
+        font-weight: bold;
+        animation: anime 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate forwards;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      @keyframes anime {
+        from {
+          font-variation-settings:
+            "wght" 300,
+            "slnt" 15;
+          text-shadow: none;
+        }
+        to {
+          font-variation-settings:
+            "wght" 800,
+            "slnt" 0;
+          text-shadow:
+            1px 1px 0px #70ffff,
+            2px 2px 0px #4fff95,
+            5px 5px 5px #74a9f9;
+        }
       }
       .send-emali-panel {
         display: flex;
@@ -484,7 +507,6 @@ const doSubmit = () => {
       }
     }
   }
-
   .check-code-panel {
     width: 100%;
     display: flex;
@@ -502,17 +524,36 @@ const doSubmit = () => {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
+    color: rgb(36, 43, 45);
   }
 
   .icp-link a {
     margin: 0 auto;
-    color: rgb(16, 172, 172);
+    color: #000000;
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
   }
 
   .icp-link a:hover {
-    color: rgb(102, 233, 233);
+    animation: anime-second 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate forwards;
+  }
+  @keyframes anime-second  {
+    from {
+      font-variation-settings:
+        "wght" 300,
+        "slnt" 15;
+      text-shadow: none;
+    }
+    to {
+      font-variation-settings:
+        "wght" 800,
+        "slnt" 0;
+      text-shadow:
+        1px 1px 0px #096464,
+        2px 2px 0px #08ac49,
+        5px 5px 5px #406aa7;
+    }
   }
 }
 </style>
